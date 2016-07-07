@@ -1,0 +1,21 @@
+{
+  "name": "js-agile-helper",
+  "version": "0.1.0",
+  "description": "Helper for agile process.",
+  "dependencies": {
+    "bluebird": "3.2.*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "lodash": "*",
+    "jscs": "*",
+    "jshint": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test" : "./node_modules/mocha/bin/mocha --recursive tests/unit",
+    "hans" : "./node_modules/mocha/bin/mocha --recursive tests/unit"
+  },
+  "author": "Hans Dubois",
+  "license": "MIT"
+}
